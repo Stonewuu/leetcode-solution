@@ -48,7 +48,6 @@ public class Solution {
     public static void main(String[] args) {
         int[] arr = new int[]{5, 3, 4, 5};
         System.out.println(stoneGame(arr));
-        ;
     }
 
 }
