@@ -1,6 +1,5 @@
 package com.stonewu.solution.problem_3;
 
-import java.nio.charset.StandardCharsets;
 
 /**
  * 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
@@ -46,6 +45,7 @@ public class Solution {
             length = length > end - start + 1 ? length : end - start + 1;
             intMap[c] = end + 1;
         }
+        System.out.println(length);
         return length;
     }
 
